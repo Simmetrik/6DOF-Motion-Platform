@@ -1,165 +1,163 @@
-http://www.simmetrik.com/6dof-motion-simulator-platform,,https://github.com/Simmetrik/6DOF-Motion-Platform,,,,,,
-Yaw-Sway / Double Traction Loss Bottom,Category,Spec,Length,Quantity,Link,Purpose,Notes,
-Aluminium profile type-i light,aluminium profile,40x80,1040,2,,Frame,,Yaw-Sway / Double Traction Loss Bottom
-Aluminium profile type-i light,aluminium profile,40x80,1200,2,,Frame,,Yaw-Sway / Double Traction Loss Bottom
-Aluminium profile type-i light,aluminium profile,40x80,1580,2,,Frame,,Yaw-Sway / Double Traction Loss Bottom
-Aluminium profile type-i light,aluminium profile,40x40,370,2,,Frame,,Yaw-Sway / Double Traction Loss Bottom
-GX150 linear table,linear tech,400mm stroke,603mm,3,,,"I have ordered 300mm stroke version with a dust cover, and they have added +100mm to the stroke (for a total of 400mm stroke), and useful stroke became 370mm with the dust cover on",Yaw-Sway / Double Traction Loss Bottom
-Shaft Holder,linear tech,SH25,,4,,,,Yaw-Sway / Double Traction Loss Bottom
-Shaft Holder,linear tech,SH30,,8,,,,Yaw-Sway / Double Traction Loss Bottom
-Flanged Shaft Support Block,linear tech,SFWR 30,,1,,,"SFWR 30, bosch R1056-30 or norelem 21585-30 or alike. The mount is designed with M10 threaded holes spaced 54mm apart in a square.",Yaw-Sway / Double Traction Loss Bottom
-Linear Bearing,linear tech,SCE25UU,,4,,,optionally with polymer bearings,Yaw-Sway / Double Traction Loss Bottom
-Linear Bearing,linear tech,SCE30UU,,12,,,optionally with polymer bearings,Yaw-Sway / Double Traction Loss Bottom
-Linear Shaft,linear tech,25mm,500,2,,for allowing yaw DOF rod plate and bearing joint assembly to move along the sway DOF,,Yaw-Sway / Double Traction Loss Bottom
-Linear Shaft,linear tech,30mm,130,1,,in between UCF206 and flanged shaft support block,,Yaw-Sway / Double Traction Loss Bottom
-Linear Shaft,linear tech,30mm,380,4,,for surge movement allowing yaw DOF,,Yaw-Sway / Double Traction Loss Bottom
-Linear Shaft,linear tech,30mm,1108,4,,for sway DOF,"1108mm for ~360mm travel placed on the inner profile, 1188 for ~400mm travel placed on the outer profile",Yaw-Sway / Double Traction Loss Bottom
-Thrust Bearing / Rotating assembly / Lazy Susan,bearing,105x85 500kgs capacity,,4,https://www.bs-rollen.de/en_DE/castors/thrust-bearings/1237/thrust-bearing?c=164,,BS Rollen D80.115 thrust bearing with 500kgs capacity. There is another make with the same form factor but it has only 250kgs weight capacity,Yaw-Sway / Double Traction Loss Bottom
-Surge Shaft Mounts,CNC part,as per step file and drawing,,8,,,"Optionally replaceable by 8 x SHF30 and drlling holes to 8 of the SCE30UU's, or using 3d printed versions (STEP & STL files available) instead of CNC machined",Yaw-Sway / Double Traction Loss Bottom
-YawSway DOF joint locker mount,CNC part,as per step file and drawing,,1,,,In between flanged shaft support block and 2xSC25 linear bearings,Yaw-Sway / Double Traction Loss Bottom
-Mounting plate between GX150 and aluminium profiles,CNC part,as per step file and drawing,,2,,,only if GX150 is used instead of a push-pull actuator,Yaw-Sway / Double Traction Loss Bottom
-Linear table (GX150) or push-pull actuators,linear tech,400mm max stroke,,2,,,"Adjustable stroke, current design fits up to 400mm stroke movement. I have ordered 3*GX150's with 300mm stroke + dust cover, and got a 400mm stroke that moves 370mm with the dust cover on.",Yaw-Sway / Double Traction Loss Bottom
-Angle bracket,connector hardware,40x80,,20,,in between 40x80 profiles,,Yaw-Sway / Double Traction Loss Bottom
-Angle bracket,connector hardware,40x40,,8,,linear table(GX150) to ball bearing hinge profile mount,,Yaw-Sway / Double Traction Loss Bottom
-Angle bracket,connector hardware,40x40,,16,,linear table(GX150) to frame,,Yaw-Sway / Double Traction Loss Bottom
-Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""T"" shape",,8,,below the bottom frame in each corner,,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN912,bolt,M10,35,4,,for flanged shaft support block,,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN912,bolt,M6,16,8,,for mounting the 140mm profile to the linear table's top,,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN912,bolt,M6,16,16,,"for mounting 2 x GX150 linear tables to the bottom frame profile, GX150 side",,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN912,bolt,M8,16,16,,"for mounting 2 x GX150 linear tables to the bottom frame profile, frame side",,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN912,bolt,M8,16,32,,for SurgeShaftMounts to SCE30UU,,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN912,bolt,M8,16,16,,For LasySusan bearing plate mounts to profile,,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN912,bolt,M8,20,32,,for SurgeShaftMounts shaft set screw,,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN912,bolt,M8,20,80,,for frame angle brackets,,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN912,bolt,M8,20,112,,for frame bottom's aluminium mounting plates,,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN912,bolt,M8,25,16,,for SH30 shaft holders for 1120mm sway shafts,,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN912,bolt,M8,25,12,,For Yaw DOF RodPlate assembly,,Yaw-Sway / Double Traction Loss Bottom
-Bolt DIN6912,bolt,M6,16,32,,For LasySusan bearing plate mounts to lasy susan,,Yaw-Sway / Double Traction Loss Bottom
-Washer DIN125,washer,6.4,,16,,linear table (GX150),,Yaw-Sway / Double Traction Loss Bottom
-Washer DIN125,washer,8.4,,16,,linear table (GX150),,Yaw-Sway / Double Traction Loss Bottom
-Washer DIN125,washer,8.4,,112,,for bottom frame's aluminium mounting plates,,Yaw-Sway / Double Traction Loss Bottom
-Spring washer DIN127,washer,6.5,,16,,linear table (GX150),,Yaw-Sway / Double Traction Loss Bottom
-Spring washer DIN127,washer,8.5,,80,,for frame angle brackets,,Yaw-Sway / Double Traction Loss Bottom
-Spring washer DIN127,washer,8.5,,112,,for bottom frame's aluminium mounting plates,,Yaw-Sway / Double Traction Loss Bottom
-Self-locking nut DIN985,nut,M6,,32,,for lasy susan mount,,Yaw-Sway / Double Traction Loss Bottom
-Self-locking nut DIN985,nut,M8,,32,,for SurgeShaftMounts shaft set screw nut pocket,,Yaw-Sway / Double Traction Loss Bottom
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,16,,for GX150 to profile,,Yaw-Sway / Double Traction Loss Bottom
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,16,,lasy susan mounts,,Yaw-Sway / Double Traction Loss Bottom
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,80,,for frame angle brackets,,Yaw-Sway / Double Traction Loss Bottom
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,16,,for SH30 shaft holders,,Yaw-Sway / Double Traction Loss Bottom
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,112,,for bottom frame's aluminium mounting plates,,Yaw-Sway / Double Traction Loss Bottom
+,http://www.simmetrik.com/6dof-motion-simulator-platform,,https://github.com/Simmetrik/6DOF-Motion-Platform,,,,,
+Assembly,Yaw-Sway / Double Traction Loss Bottom,Category,Spec,Length,Quantity,Link,Purpose,Notes
+Yaw-Sway / Double Traction Loss Bottom,Aluminium profile type-i light,aluminium profile,40x80,1040,2,,Frame,
+Yaw-Sway / Double Traction Loss Bottom,Aluminium profile type-i light,aluminium profile,40x80,1200,2,,Frame,
+Yaw-Sway / Double Traction Loss Bottom,Aluminium profile type-i light,aluminium profile,40x80,1580,2,,Frame,
+Yaw-Sway / Double Traction Loss Bottom,Aluminium profile type-i light,aluminium profile,40x40,370,2,,Frame,
+Yaw-Sway / Double Traction Loss Bottom,GX150 linear table,linear tech,400mm stroke,603mm,3,,,"I have ordered 300mm stroke version with a dust cover, and they have added +100mm to the stroke (for a total of 400mm stroke), and useful stroke became 370mm with the dust cover on"
+Yaw-Sway / Double Traction Loss Bottom,Shaft Holder,linear tech,SH25,,4,,,
+Yaw-Sway / Double Traction Loss Bottom,Shaft Holder,linear tech,SH30,,8,,,
+Yaw-Sway / Double Traction Loss Bottom,Flanged Shaft Support Block,linear tech,SFWR 30,,1,,,"SFWR 30, bosch R1056-30 or norelem 21585-30 or alike. The mount is designed with M10 threaded holes spaced 54mm apart in a square."
+Yaw-Sway / Double Traction Loss Bottom,Linear Bearing,linear tech,SCE25UU,,4,,,optionally with polymer bearings
+Yaw-Sway / Double Traction Loss Bottom,Linear Bearing,linear tech,SCE30UU,,12,,,optionally with polymer bearings
+Yaw-Sway / Double Traction Loss Bottom,Linear Shaft,linear tech,25mm,500,2,,for allowing yaw DOF rod plate and bearing joint assembly to move along the sway DOF,
+Yaw-Sway / Double Traction Loss Bottom,Linear Shaft,linear tech,30mm,130,1,,in between UCF206 and flanged shaft support block,
+Yaw-Sway / Double Traction Loss Bottom,Linear Shaft,linear tech,30mm,380,4,,for surge movement allowing yaw DOF,
+Yaw-Sway / Double Traction Loss Bottom,Linear Shaft,linear tech,30mm,1108,4,,for sway DOF,"1108mm for ~360mm travel placed on the inner profile, 1188 for ~400mm travel placed on the outer profile"
+Yaw-Sway / Double Traction Loss Bottom,Thrust Bearing / Rotating assembly / Lazy Susan,bearing,105x85 500kgs capacity,,4,https://www.bs-rollen.de/en_DE/castors/thrust-bearings/1237/thrust-bearing?c=164,,BS Rollen D80.115 thrust bearing with 500kgs capacity. There is another make with the same form factor but it has only 250kgs weight capacity
+Yaw-Sway / Double Traction Loss Bottom,Surge Shaft Mounts,CNC part,as per step file and drawing,,8,,,"Optionally replaceable by 8 x SHF30 and drlling holes to 8 of the SCE30UU's, or using 3d printed versions (STEP & STL files available) instead of CNC machined"
+Yaw-Sway / Double Traction Loss Bottom,YawSway DOF joint locker mount,CNC part,as per step file and drawing,,1,,,In between flanged shaft support block and 2xSC25 linear bearings
+Yaw-Sway / Double Traction Loss Bottom,Mounting plate between GX150 and aluminium profiles,CNC part,as per step file and drawing,,2,,,only if GX150 is used instead of a push-pull actuator
+Yaw-Sway / Double Traction Loss Bottom,Linear table (GX150) or push-pull actuators,linear tech,400mm max stroke,,2,,,"Adjustable stroke, current design fits up to 400mm stroke movement. I have ordered 3*GX150's with 300mm stroke + dust cover, and got a 400mm stroke that moves 370mm with the dust cover on."
+Yaw-Sway / Double Traction Loss Bottom,Angle bracket,connector hardware,40x80,,20,,in between 40x80 profiles,
+Yaw-Sway / Double Traction Loss Bottom,Angle bracket,connector hardware,40x40,,8,,linear table(GX150) to ball bearing hinge profile mount,
+Yaw-Sway / Double Traction Loss Bottom,Angle bracket,connector hardware,40x40,,16,,linear table(GX150) to frame,
+Yaw-Sway / Double Traction Loss Bottom,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""T"" shape",,8,,below the bottom frame in each corner,
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN912,bolt,M10,35,4,,for flanged shaft support block,
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN912,bolt,M6,16,8,,for mounting the 140mm profile to the linear table's top,
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN912,bolt,M6,16,16,,"for mounting 2 x GX150 linear tables to the bottom frame profile, GX150 side",
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN912,bolt,M8,16,16,,"for mounting 2 x GX150 linear tables to the bottom frame profile, frame side",
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN912,bolt,M8,16,32,,for SurgeShaftMounts to SCE30UU,
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN912,bolt,M8,16,16,,For LasySusan bearing plate mounts to profile,
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN912,bolt,M8,20,32,,for SurgeShaftMounts shaft set screw,
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN912,bolt,M8,20,80,,for frame angle brackets,
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN912,bolt,M8,20,112,,for frame bottom's aluminium mounting plates,
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN912,bolt,M8,25,16,,for SH30 shaft holders for 1120mm sway shafts,
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN912,bolt,M8,25,12,,For Yaw DOF RodPlate assembly,
+Yaw-Sway / Double Traction Loss Bottom,Bolt DIN6912,bolt,M6,16,32,,For LasySusan bearing plate mounts to lasy susan,
+Yaw-Sway / Double Traction Loss Bottom,Washer DIN125,washer,6.4,,16,,linear table (GX150),
+Yaw-Sway / Double Traction Loss Bottom,Washer DIN125,washer,8.4,,16,,linear table (GX150),
+Yaw-Sway / Double Traction Loss Bottom,Washer DIN125,washer,8.4,,112,,for bottom frame's aluminium mounting plates,
+Yaw-Sway / Double Traction Loss Bottom,Spring washer DIN127,washer,6.5,,16,,linear table (GX150),
+Yaw-Sway / Double Traction Loss Bottom,Spring washer DIN127,washer,8.5,,80,,for frame angle brackets,
+Yaw-Sway / Double Traction Loss Bottom,Spring washer DIN127,washer,8.5,,112,,for bottom frame's aluminium mounting plates,
+Yaw-Sway / Double Traction Loss Bottom,Self-locking nut DIN985,nut,M6,,32,,for lasy susan mount,
+Yaw-Sway / Double Traction Loss Bottom,Self-locking nut DIN985,nut,M8,,32,,for SurgeShaftMounts shaft set screw nut pocket,
+Yaw-Sway / Double Traction Loss Bottom,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,16,,for GX150 to profile,
+Yaw-Sway / Double Traction Loss Bottom,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,16,,lasy susan mounts,
+Yaw-Sway / Double Traction Loss Bottom,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,80,,for frame angle brackets,
+Yaw-Sway / Double Traction Loss Bottom,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,16,,for SH30 shaft holders,
+Yaw-Sway / Double Traction Loss Bottom,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,112,,for bottom frame's aluminium mounting plates,
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
-Yaw-Sway / Double Traction Loss Top,Category,Spec,Length,Quantity,,Purpose,Notes,
-Aluminium profile type-i light,aluminium profile,40x80,660,4,,Frame,,Yaw-Sway / Double Traction Loss Top
-Aluminium profile type-i light,aluminium profile,40x80,1400,2,,Frame,,Yaw-Sway / Double Traction Loss Top
-Aluminium profile type-i light,aluminium profile,40x40,234,2,,GX150 to ballbearing hinge,,Yaw-Sway / Double Traction Loss Top
-Aluminium profile type-i light,aluminium profile,40x40,210,2,,between ball bearing hinges,,Yaw-Sway / Double Traction Loss Top
-Item Ball bearing hinge,item,,,4,,,"Optionally replaceable by cheaper alternatives, like regular ball joints and fork heads",Yaw-Sway / Double Traction Loss Top
-Pillow Block / Housed Bearing,linear tech,UCF206,,1,,,,Yaw-Sway / Double Traction Loss Top
-UCF206 mount,CNC part,as per step file and drawing,,1,,,,Yaw-Sway / Double Traction Loss Top
-"Item Profile 8 80x80-45° D60, natural
-0.0.463.24",aluminium profile,80x80-45° D60,40,4,,in 4 corners for holding vertical actuators in place,,Yaw-Sway / Double Traction Loss Top
-Angle bracket,connector hardware,40x80,,8,,,,Yaw-Sway / Double Traction Loss Top
-Angle bracket,connector hardware,40x40,,8,,,,Yaw-Sway / Double Traction Loss Top
-Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""L"" shape",,8,,below the Yaw-Sway top frame in each corner,,Yaw-Sway / Double Traction Loss Top
-Bolt DIN912,bolt,M10,35,4,,between UCF206 and UCF206's thick mount plate,,Yaw-Sway / Double Traction Loss Top
-Bolt DIN912,bolt,M8,20,8,,between UCF206's thin mount plate and profile frame,,Yaw-Sway / Double Traction Loss Top
-Bolt DIN912,bolt,M8,20,32,,for frame angle brackets,,Yaw-Sway / Double Traction Loss Top
-Bolt DIN912,bolt,M8,20,112,,for Yaw-Sway top frame's aluminium mounting plates,,Yaw-Sway / Double Traction Loss Top
-Washer DIN125,washer,8.4,,112,,for Yaw-Sway top frame's aluminium mounting plates,,Yaw-Sway / Double Traction Loss Top
-Spring washer DIN127,washer,8.5,,32,,for frame angle brackets,,Yaw-Sway / Double Traction Loss Top
-Spring washer DIN127,washer,8.5,,112,,for Yaw-Sway top frame's aluminium mounting plates,,Yaw-Sway / Double Traction Loss Top
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,48,,for frame angle brackets,,Yaw-Sway / Double Traction Loss Top
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,8,,for UCF206 5mm thin mount plate,,Yaw-Sway / Double Traction Loss Top
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,12,,for assembly between item ball bearing hinge and linear table,,Yaw-Sway / Double Traction Loss Top
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,112,,for Yaw-Sway top frame's aluminium mounting plates,,Yaw-Sway / Double Traction Loss Top
+,Yaw-Sway / Double Traction Loss Top,Category,Spec,Length,Quantity,,Purpose,Notes
+Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium profile,40x80,660,4,,Frame,
+Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium profile,40x80,1400,2,,Frame,
+Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium profile,40x40,234,2,,GX150 to ballbearing hinge,
+Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium profile,40x40,210,2,,between ball bearing hinges,
+Yaw-Sway / Double Traction Loss Top,Item Ball bearing hinge,item,,,4,,,"Optionally replaceable by cheaper alternatives, like regular ball joints and fork heads"
+Yaw-Sway / Double Traction Loss Top,Pillow Block / Housed Bearing,linear tech,UCF206,,1,,,
+Yaw-Sway / Double Traction Loss Top,UCF206 mount,CNC part,as per step file and drawing,,1,,,
+Yaw-Sway / Double Traction Loss Top,"Item Profile 8 80x80-45° D60, natural
+0.0.463.24",aluminium profile,80x80-45° D60,40,4,,in 4 corners for holding vertical actuators in place,
+Yaw-Sway / Double Traction Loss Top,Angle bracket,connector hardware,40x80,,8,,,
+Yaw-Sway / Double Traction Loss Top,Angle bracket,connector hardware,40x40,,8,,,
+Yaw-Sway / Double Traction Loss Top,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""L"" shape",,8,,below the Yaw-Sway top frame in each corner,
+Yaw-Sway / Double Traction Loss Top,Bolt DIN912,bolt,M10,35,4,,between UCF206 and UCF206's thick mount plate,
+Yaw-Sway / Double Traction Loss Top,Bolt DIN912,bolt,M8,20,8,,between UCF206's thin mount plate and profile frame,
+Yaw-Sway / Double Traction Loss Top,Bolt DIN912,bolt,M8,20,32,,for frame angle brackets,
+Yaw-Sway / Double Traction Loss Top,Bolt DIN912,bolt,M8,20,112,,for Yaw-Sway top frame's aluminium mounting plates,
+Yaw-Sway / Double Traction Loss Top,Washer DIN125,washer,8.4,,112,,for Yaw-Sway top frame's aluminium mounting plates,
+Yaw-Sway / Double Traction Loss Top,Spring washer DIN127,washer,8.5,,32,,for frame angle brackets,
+Yaw-Sway / Double Traction Loss Top,Spring washer DIN127,washer,8.5,,112,,for Yaw-Sway top frame's aluminium mounting plates,
+Yaw-Sway / Double Traction Loss Top,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,48,,for frame angle brackets,
+Yaw-Sway / Double Traction Loss Top,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,8,,for UCF206 5mm thin mount plate,
+Yaw-Sway / Double Traction Loss Top,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,12,,for assembly between item ball bearing hinge and linear table,
+Yaw-Sway / Double Traction Loss Top,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,112,,for Yaw-Sway top frame's aluminium mounting plates,
 ,,,,,,,,
-Surge,Category,Spec,Length,Quantity,,Purpose,Notes,
-Aluminium profile type-i light,aluminium profile,40x80,500,4,,Frame,,Surge
-Aluminium profile type-i light,aluminium profile,40x80,1600,2,,Frame,,Surge
-Aluminium profile type-i light,aluminium profile,40x160,500,1,,P1X front,,Surge
-Aluminium profile type-i light,aluminium profile,40x160,107,1,,For connecting GX150 to P1X seat cross profile,,Surge
-Linear Rail Guide,linear tech,HGR20,1600,2,,Can be shortened by up to 200mm if surge actuator / linear table stroke is reduced by the same amount,,Surge
-Linear Carriage Block,linear tech,HGH20,,4,,,,Surge
-Angle bracket,connector hardware,80x80,,8,,for frame profile,,Surge
-Angle bracket,connector hardware,80x80,,4,,for 1 x GX150 table top to 40x160x170mm connector alu profile,,Surge
-Angle bracket,connector hardware,40x80,,4,,for frame profile,,Surge
-Angle bracket,connector hardware,40x40,,6,,for mounting 1 x GX150 linear table to surge frame,,Surge
-Angle bracket,connector hardware,40x80,,4,,for 1 x GX150 table top to 40x160x170mm connector alu profile,,Surge
-Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"8 hole, ""T"" shape",,8,,below the Surge frame at each profile connection,,Surge
-Bolt DIN7991,bolt,M5,10,32,,for mounting linear rail carriages to carriage mounts,,Surge
-Bolt DIN912,bolt,M5,20,54,,for mounting linear rails to profile,,Surge
-Bolt DIN912,bolt,M6,16,6,,"for mounting 1 x GX150 linear table to the surge frame, GX150 side",,Surge
-Bolt DIN912,bolt,M8,16,6,,"for mounting 1 x GX150 linear table to the surge frame, frame side",,Surge
-Bolt DIN912,bolt,M8,20,56,,for mounting vertical actuators,,Surge
-Bolt DIN912,bolt,M8,20,56,,for frame angle brackets,,Surge
-Bolt DIN912,bolt,M8,20,64,,below the Surge frame at each profile connection,,Surge
-Bolt DIN912,bolt,M8,25,16,,for mounting P1X to linear carriage mounts,,Surge
-Washer DIN125,washer,8.4,,64,,below the Surge frame at each profile connection,,Surge
-Spring washer DIN127,washer,8.5,,56,,for frame angle brackets,,Surge
-Spring washer DIN127,washer,8.5,,64,,below the Surge frame at each profile connection,,Surge
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M5,,54,,,,Surge
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,134,,,,Surge
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,64,,below the Surge frame at each profile connection,,Surge
+,Surge,Category,Spec,Length,Quantity,,Purpose,Notes
+Surge,Aluminium profile type-i light,aluminium profile,40x80,500,4,,Frame,
+Surge,Aluminium profile type-i light,aluminium profile,40x80,1600,2,,Frame,
+Surge,Aluminium profile type-i light,aluminium profile,40x160,500,1,,P1X front,
+Surge,Aluminium profile type-i light,aluminium profile,40x160,107,1,,For connecting GX150 to P1X seat cross profile,
+Surge,Linear Rail Guide,linear tech,HGR20,1600,2,,Can be shortened by up to 200mm if surge actuator / linear table stroke is reduced by the same amount,
+Surge,Linear Carriage Block,linear tech,HGH20,,4,,,
+Surge,Angle bracket,connector hardware,80x80,,8,,for frame profile,
+Surge,Angle bracket,connector hardware,80x80,,4,,for 1 x GX150 table top to 40x160x170mm connector alu profile,
+Surge,Angle bracket,connector hardware,40x80,,4,,for frame profile,
+Surge,Angle bracket,connector hardware,40x40,,6,,for mounting 1 x GX150 linear table to surge frame,
+Surge,Angle bracket,connector hardware,40x80,,4,,for 1 x GX150 table top to 40x160x170mm connector alu profile,
+Surge,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"8 hole, ""T"" shape",,8,,below the Surge frame at each profile connection,
+Surge,Bolt DIN7991,bolt,M5,10,32,,for mounting linear rail carriages to carriage mounts,
+Surge,Bolt DIN912,bolt,M5,20,54,,for mounting linear rails to profile,
+Surge,Bolt DIN912,bolt,M6,16,6,,"for mounting 1 x GX150 linear table to the surge frame, GX150 side",
+Surge,Bolt DIN912,bolt,M8,16,6,,"for mounting 1 x GX150 linear table to the surge frame, frame side",
+Surge,Bolt DIN912,bolt,M8,20,56,,for mounting vertical actuators,
+Surge,Bolt DIN912,bolt,M8,20,56,,for frame angle brackets,
+Surge,Bolt DIN912,bolt,M8,20,64,,below the Surge frame at each profile connection,
+Surge,Bolt DIN912,bolt,M8,25,16,,for mounting P1X to linear carriage mounts,
+Surge,Washer DIN125,washer,8.4,,64,,below the Surge frame at each profile connection,
+Surge,Spring washer DIN127,washer,8.5,,56,,for frame angle brackets,
+Surge,Spring washer DIN127,washer,8.5,,64,,below the Surge frame at each profile connection,
+Surge,T-Slot nut Spring-loaded Roll-in item line 8,nut,M5,,54,,,
+Surge,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,134,,,
+Surge,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,64,,below the Surge frame at each profile connection,
 ,,,,,,,,
-,,stroke mm,180,Quantity,,4,,
-Vertical Actuators,Category,Spec,Length,Quantity,,Purpose,Notes,
-Linear Shaft,linear tech,"30mm diameter, 17-20mm hollow inside",380,4,,,reduce by -60mm if using the smaller LMEK-30-UU instead of LMEKL-30-UU,Vertical Actuators
-Aluminium profile type-i light item,aluminium profile,100x100,300,4,,,,Vertical Actuators
-Ballscrew,linear tech,1605,300,4,,,,Vertical Actuators
-Linear bearing,linear tech,LMEKL-30-UU,,4,,,,Vertical Actuators
-Fixed bearing,linear tech,FK12,,4,,,,Vertical Actuators
-Motor shaft coupling,linear tech,10mm/16mm,,4,,,,Vertical Actuators
-Shaft Collar,linear tech,misumi SCWW30,,,https://uk.misumi-ec.com/vona2/detail/110301999840/?CategorySpec=00000004080%3a%3amig00000002019751%0900000004081%3a%3amig00000002327262#,"Optional, for stronger push-pull operation, in case the actuators would be used for horizontal push-pull operation which requires a stronger holding power than the slider's printed plastic. Not required for vertical use, even if the actuators are fixed onto the platform - gravity helps with pulling. https://uk.misumi-ec.com/vona2/detail/110301999840/?CategorySpec=00000004080%3a%3amig00000002019751%0900000004081%3a%3amig00000002327262#",,Vertical Actuators
-Bolt DIN912,bolt,M10,45,32,,for linear and fixed bearing mounts,,Vertical Actuators
-Bolt DIN912,bolt,M6,100,16,,for motor mount,,Vertical Actuators
-Bolt DIN912,bolt,M6,25,16,,for linear bearing mount,,Vertical Actuators
-Bolt DIN912,bolt,M5,90,24,,for slider,"Use 100mm when using a shaft collar for heavy duty push-pull operation, like the SCWW30 from misumi: https://uk.misumi-ec.com/vona2/detail/110301999840/?CategorySpec=00000004080%3a%3amig00000002019751%0900000004081%3a%3amig00000002327262#",Vertical Actuators
-Bolt DIN912,bolt,M4,35,16,,for fixed bearing,,Vertical Actuators
-Self-locking nut DIN985,nut,M6,,32,,for linear bearing mount and motor mount,,Vertical Actuators
-Self-locking nut DIN985,nut,M5,,24,,for slider,,Vertical Actuators
-Self-locking nut DIN985,nut,M4,,32,,for fixed bearing mount (2 / nut pocket),,Vertical Actuators
-Spring washer DIN127,washer,4.4,,16,,for fixed bearing,,Vertical Actuators
-Spring washer DIN127,washer,6.5,,16,,for motor mount,,Vertical Actuators
-Spring washer DIN127,washer,10.7,,32,,for linear and fixed bearing mounts,,Vertical Actuators
-T-Slot nut Spring-loaded Roll-in item line 10,nut,M8,,24,,for mounting vertical actuators to surge frame,,Vertical Actuators
-Bolt DIN912,bolt,M8,30,56,,for mounting vertical actuators to surge frame,,Vertical Actuators
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-AASD rack,Category,Spec,Length,Quantity,,Purpose,Notes,
-Servo motor and driver,linear tech,90ST-M02430 / AASD15A,,7,,,"without breaks, with 4m shielded cables, single-phase, 220v, 0.75kW",AASD rack
-Bolt DIN912,bolt,M5,12,28,,for mounting AASD drives to rack,,AASD rack
-Aluminium profile type-i light,aluminium profile,40x40,880,4,,M8 tapped threaded ends,,AASD rack
-Aluminium profile type-i light,aluminium profile,40x40,800,2,,,,AASD rack
-Aluminium profile type-i light,aluminium profile,40x40,235,4,,,,AASD rack
-Aluminium profile type-i light,aluminium profile,40x80,300,4,,,,AASD rack
-Connector plate,connector hardware,80x80,,4,,,,AASD rack
-Connector plate,connector hardware,40x80,,8,,,,AASD rack
-Plexi panel,Plexi panel,255x820,4-6mm,2,,,,AASD rack
-Plexi panel,Plexi panel,175x320,4-6mm,2,,cut according to supplied files for fan intake and cable outputs,,AASD rack
-Plexi panel,Plexi panel,320x820,4-6mm,2,,,,AASD rack
-Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,258,4,,To secure panels with a thickness of 4 - 6 mm,https://www.fath24.com/portfolio/products/Reduction-Profile-I-Slot-8-4-6-mm,AASD rack
-Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,178,4,,,,AASD rack
-Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,323,4,,,,AASD rack
-Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,823,4,,,,AASD rack
-Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,323,4,,,,AASD rack
-Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,823,4,,,,AASD rack
-Bolt DIN912,bolt,M8,16,32,,,,AASD rack
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,28,,,,AASD rack
+,,,stroke mm,180,Quantity,,4,
+,Vertical Actuators,Category,Spec,Length,Quantity,,Purpose,Notes
+Vertical Actuators,Linear Shaft,linear tech,"30mm diameter, 17-20mm hollow inside",380,4,,,reduce by -60mm if using the smaller LMEK-30-UU instead of LMEKL-30-UU
+Vertical Actuators,Aluminium profile type-i light item,aluminium profile,100x100,300,4,,,
+Vertical Actuators,Ballscrew,linear tech,1605,300,4,,,
+Vertical Actuators,Linear bearing,linear tech,LMEKL-30-UU,,4,,,
+Vertical Actuators,Fixed bearing,linear tech,FK12,,4,,,
+Vertical Actuators,Motor shaft coupling,linear tech,10mm/16mm,,4,,,
+Vertical Actuators,Shaft Collar,linear tech,misumi SCWW30,,,https://uk.misumi-ec.com/vona2/detail/110301999840/?CategorySpec=00000004080%3a%3amig00000002019751%0900000004081%3a%3amig00000002327262#,"Optional, for stronger push-pull operation, in case the actuators would be used for horizontal push-pull operation which requires a stronger holding power than the slider's printed plastic. Not required for vertical use, even if the actuators are fixed onto the platform - gravity helps with pulling. https://uk.misumi-ec.com/vona2/detail/110301999840/?CategorySpec=00000004080%3a%3amig00000002019751%0900000004081%3a%3amig00000002327262#",
+Vertical Actuators,Bolt DIN912,bolt,M10,45,32,,for linear and fixed bearing mounts,
+Vertical Actuators,Bolt DIN912,bolt,M6,100,16,,for motor mount,
+Vertical Actuators,Bolt DIN912,bolt,M6,25,16,,for linear bearing mount,
+Vertical Actuators,Bolt DIN912,bolt,M5,90,24,,for slider,"Use 100mm when using a shaft collar for heavy duty push-pull operation, like the SCWW30 from misumi: https://uk.misumi-ec.com/vona2/detail/110301999840/?CategorySpec=00000004080%3a%3amig00000002019751%0900000004081%3a%3amig00000002327262#"
+Vertical Actuators,Bolt DIN912,bolt,M4,35,16,,for fixed bearing,
+Vertical Actuators,Self-locking nut DIN985,nut,M6,,32,,for linear bearing mount and motor mount,
+Vertical Actuators,Self-locking nut DIN985,nut,M5,,24,,for slider,
+Vertical Actuators,Self-locking nut DIN985,nut,M4,,32,,for fixed bearing mount (2 / nut pocket),
+Vertical Actuators,Spring washer DIN127,washer,4.4,,16,,for fixed bearing,
+Vertical Actuators,Spring washer DIN127,washer,6.5,,16,,for motor mount,
+Vertical Actuators,Spring washer DIN127,washer,10.7,,32,,for linear and fixed bearing mounts,
+Vertical Actuators,T-Slot nut Spring-loaded Roll-in item line 10,nut,M8,,24,,for mounting vertical actuators to surge frame,
+Vertical Actuators,Bolt DIN912,bolt,M8,30,56,,for mounting vertical actuators to surge frame,
 ,,,,,,,,
 ,,,,,,,,
-Thanos Controller,Category,Spec,Length,Quantity,,Purpose,Notes,
-Thanos AMC-AASD15A PNP servo controller,servo controller,,,1,,,,Thanos Controller
-DB25 cable shielded,cable,,3m,7,,,,Thanos Controller
-usb-A to usb-B cable,cable,,1.8m,1,,,"Use high-quality, short and well insulated USB cable and connect to a backside USB port",Thanos Controller
-Bolt DIN7991,bolt,M3,6,11,,for Thanos controller 3d printed enclosure,,Thanos Controller
-E-Stop button Bajer,servo controller,,,1,,,,Thanos Controller
+,,,,,,,,
+,AASD rack,Category,Spec,Length,Quantity,,Purpose,Notes
+AASD rack,Servo motor and driver,linear tech,90ST-M02430 / AASD15A,,7,,,"without breaks, with 4m shielded cables, single-phase, 220v, 0.75kW"
+AASD rack,Bolt DIN912,bolt,M5,12,28,,for mounting AASD drives to rack,
+AASD rack,Aluminium profile type-i light,aluminium profile,40x40,880,4,,M8 tapped threaded ends,
+AASD rack,Aluminium profile type-i light,aluminium profile,40x40,800,2,,,
+AASD rack,Aluminium profile type-i light,aluminium profile,40x40,235,4,,,
+AASD rack,Aluminium profile type-i light,aluminium profile,40x80,300,4,,,
+AASD rack,Connector plate,connector hardware,80x80,,4,,,
+AASD rack,Connector plate,connector hardware,40x80,,8,,,
+AASD rack,Plexi panel,Plexi panel,255x820,4-6mm,2,,,
+AASD rack,Plexi panel,Plexi panel,175x320,4-6mm,2,,cut according to supplied files for fan intake and cable outputs,
+AASD rack,Plexi panel,Plexi panel,320x820,4-6mm,2,,,
+AASD rack,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,258,4,,To secure panels with a thickness of 4 - 6 mm,https://www.fath24.com/portfolio/products/Reduction-Profile-I-Slot-8-4-6-mm
+AASD rack,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,178,4,,,
+AASD rack,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,323,4,,,
+AASD rack,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,823,4,,,
+AASD rack,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,323,4,,,
+AASD rack,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,823,4,,,
+AASD rack,Bolt DIN912,bolt,M8,16,32,,,
+AASD rack,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,28,,,
 ,,,,,,,,
 ,,,,,,,,
+,Thanos Controller,Category,Spec,Length,Quantity,,Purpose,Notes
+Thanos Controller,Thanos AMC-AASD15A PNP servo controller,servo controller,,,1,,,
+Thanos Controller,DB25 cable shielded,cable,,3m,7,,,
+Thanos Controller,usb-A to usb-B cable,cable,,1.8m,1,,,"Use high-quality, short and well insulated USB cable and connect to a backside USB port"
+Thanos Controller,Bolt DIN7991,bolt,M3,6,11,,for Thanos controller 3d printed enclosure,
+Thanos Controller,E-Stop button Bajer,servo controller,,,1,,,
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
@@ -167,98 +165,100 @@ E-Stop button Bajer,servo controller,,,1,,,,Thanos Controller
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
-Grouped summary,Category,Spec,Length,Quantity,"Length * Quantity (this makes sense for a few items only, like aluminium profiles)",,,
-,,,,sum , product(sum ),,,
-Aluminium profile type-i light,aluminium profile,40x160,107,1,107,,,
-Aluminium profile type-i light,aluminium profile,40x160,500,1,500,,,
-Aluminium profile type-i light,aluminium profile,40x40,210,2,420,,,
-Aluminium profile type-i light,aluminium profile,40x40,234,2,468,,,
-Aluminium profile type-i light,aluminium profile,40x40,235,4,940,,,
-Aluminium profile type-i light,aluminium profile,40x40,370,2,740,,,
-Aluminium profile type-i light,aluminium profile,40x40,800,2,1600,,,
-Aluminium profile type-i light,aluminium profile,40x40,880,4,3520,,,
-Aluminium profile type-i light,aluminium profile,40x80,300,4,1200,,,
-Aluminium profile type-i light,aluminium profile,40x80,500,4,2000,,,
-Aluminium profile type-i light,aluminium profile,40x80,660,4,2640,,,
-Aluminium profile type-i light,aluminium profile,40x80,1040,2,2080,,,
-Aluminium profile type-i light,aluminium profile,40x80,1200,2,2400,,,
-Aluminium profile type-i light,aluminium profile,40x80,1400,2,2800,,,
-Aluminium profile type-i light,aluminium profile,40x80,1580,2,3160,,,
-Aluminium profile type-i light,aluminium profile,40x80,1600,2,3200,,,
-Aluminium profile type-i light item,aluminium profile,100x100,300,4,1200,,,
-"Item Profile 8 80x80-45° D60, natural
-0.0.463.24",aluminium profile,80x80-45° D60,40,4,160,,,
-Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,178,4,712,,,
-Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,258,4,1032,,,
-Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,323,8,2584,,,
-Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,823,8,6584,,,
-Thrust Bearing / Rotating assembly / Lazy Susan,bearing,105x85 500kgs capacity,,4,,,,
-Bolt DIN6912,bolt,M6,16,32,512,,,
-Bolt DIN7991,bolt,M3,6,11,66,,,
-Bolt DIN7991,bolt,M5,10,32,320,,,
-Bolt DIN912,bolt,M10,35,8,280,,,
-Bolt DIN912,bolt,M10,45,32,1440,,,
-Bolt DIN912,bolt,M4,35,16,560,,,
-Bolt DIN912,bolt,M5,12,28,336,,,
-Bolt DIN912,bolt,M5,20,54,1080,,,
-Bolt DIN912,bolt,M5,90,24,2160,,,
-Bolt DIN912,bolt,M6,16,30,480,,,
-Bolt DIN912,bolt,M6,25,16,400,,,
-Bolt DIN912,bolt,M6,100,16,1600,,,
-Bolt DIN912,bolt,M8,16,102,1632,,,
-Bolt DIN912,bolt,M8,20,552,11040,,,
-Bolt DIN912,bolt,M8,25,44,1100,,,
-Bolt DIN912,bolt,M8,30,56,1680,,,
-DB25 cable shielded,cable,,,7,,,,
-usb-A to usb-B cable,cable,,,1,,,,
-Mounting plate between GX150 and aluminium profiles,CNC part,as per step file and drawing,,2,,,,
-Surge Shaft Mounts,CNC part,as per step file and drawing,,8,,,,
-UCF206 mount,CNC part,as per step file and drawing,,1,,,,
-YawSway DOF joint locker mount,CNC part,as per step file and drawing,,1,,,,
-Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""L"" shape",,8,,,,
-Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""T"" shape",,8,,,,
-Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"8 hole, ""T"" shape",,8,,,,
-Angle bracket,connector hardware,40x40,,38,,,,
-Angle bracket,connector hardware,40x80,,36,,,,
-Angle bracket,connector hardware,80x80,,12,,,,
-Connector plate,connector hardware,40x80,,8,,,,
-Connector plate,connector hardware,80x80,,4,,,,
-Item Ball bearing hinge,item,,,4,,,,
-Ballscrew,linear tech,1605,300,4,1200,,,
-Fixed bearing,linear tech,FK12,,4,,,,
-Flanged Shaft Support Block,linear tech,SFWR 30,,1,,,,
-GX150 linear table,linear tech,400mm stroke,,3,,,,
-Linear bearing,linear tech,LMEKL-30-UU,,4,,,,
-Linear Bearing,linear tech,SCE25UU,,4,,,,
-Linear Bearing,linear tech,SCE30UU,,12,,,,
-Linear Carriage Block,linear tech,HGH20,,4,,,,
-Linear Rail Guide,linear tech,HGR20,1600,2,3200,,,
-Linear Shaft,linear tech,25mm,500,2,1000,,,
-Linear Shaft,linear tech,30mm,130,1,130,,,
-Linear Shaft,linear tech,30mm,380,4,1520,,,
-Linear Shaft,linear tech,30mm,1108,4,4432,,,
-Linear Shaft,linear tech,"30mm diameter, 17-20mm hollow inside",380,4,1520,,,
-Linear table (GX150) or push-pull actuators,linear tech,400mm max stroke,,2,,,,
-Motor shaft coupling,linear tech,10mm/16mm,,4,,,,
-Pillow Block / Housed Bearing,linear tech,UCF206,,1,,,,
-Servo motor and driver,linear tech,90ST-M02430 / AASD15A,,7,,,,
-Shaft Holder,linear tech,SH25,,4,,,,
-Shaft Holder,linear tech,SH30,,8,,,,
-Self-locking nut DIN985,nut,M4,,32,,,,
-Self-locking nut DIN985,nut,M5,,24,,,,
-Self-locking nut DIN985,nut,M6,,64,,,,
-Self-locking nut DIN985,nut,M8,,32,,,,
-T-Slot nut Spring-loaded Roll-in item line 10,nut,M8,,24,,,,
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M5,,54,,,,
-T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,646,,,,
-Plexi panel,Plexi panel,175x320,,2,,,,
-Plexi panel,Plexi panel,255x820,,2,,,,
-Plexi panel,Plexi panel,320x820,,2,,,,
-E-Stop button Bajer,servo controller,,,1,,,,
-Thanos AMC-AASD15A PNP servo controller,servo controller,,,1,,,,
-Spring washer DIN127,washer,10.7,,32,,,,
-Spring washer DIN127,washer,4.4,,16,,,,
-Spring washer DIN127,washer,6.5,,32,,,,
-Spring washer DIN127,washer,8.5,,456,,,,
-Washer DIN125,washer,6.4,,16,,,,
-Washer DIN125,washer,8.4,,304,,,,
+,,,,,,,,
+,,,,,,,,
+,Grouped summary,Category,Spec,Length,Quantity,"Length * Quantity (this makes sense for a few items only, like aluminium profiles)",,
+,,,,,sum , product(sum ),,
+,Aluminium profile type-i light,aluminium profile,40x160,107,1,107,,
+,Aluminium profile type-i light,aluminium profile,40x160,500,1,500,,
+,Aluminium profile type-i light,aluminium profile,40x40,210,2,420,,
+,Aluminium profile type-i light,aluminium profile,40x40,234,2,468,,
+,Aluminium profile type-i light,aluminium profile,40x40,235,4,940,,
+,Aluminium profile type-i light,aluminium profile,40x40,370,2,740,,
+,Aluminium profile type-i light,aluminium profile,40x40,800,2,1600,,
+,Aluminium profile type-i light,aluminium profile,40x40,880,4,3520,,
+,Aluminium profile type-i light,aluminium profile,40x80,300,4,1200,,
+,Aluminium profile type-i light,aluminium profile,40x80,500,4,2000,,
+,Aluminium profile type-i light,aluminium profile,40x80,660,4,2640,,
+,Aluminium profile type-i light,aluminium profile,40x80,1040,2,2080,,
+,Aluminium profile type-i light,aluminium profile,40x80,1200,2,2400,,
+,Aluminium profile type-i light,aluminium profile,40x80,1400,2,2800,,
+,Aluminium profile type-i light,aluminium profile,40x80,1580,2,3160,,
+,Aluminium profile type-i light,aluminium profile,40x80,1600,2,3200,,
+,Aluminium profile type-i light item,aluminium profile,100x100,300,4,1200,,
+,"Item Profile 8 80x80-45° D60, natural
+0.0.463.24",aluminium profile,80x80-45° D60,40,4,160,,
+,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,178,4,712,,
+,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,258,4,1032,,
+,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,323,8,2584,,
+,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,823,8,6584,,
+,Thrust Bearing / Rotating assembly / Lazy Susan,bearing,105x85 500kgs capacity,,4,,,
+,Bolt DIN6912,bolt,M6,16,32,512,,
+,Bolt DIN7991,bolt,M3,6,11,66,,
+,Bolt DIN7991,bolt,M5,10,32,320,,
+,Bolt DIN912,bolt,M10,35,8,280,,
+,Bolt DIN912,bolt,M10,45,32,1440,,
+,Bolt DIN912,bolt,M4,35,16,560,,
+,Bolt DIN912,bolt,M5,12,28,336,,
+,Bolt DIN912,bolt,M5,20,54,1080,,
+,Bolt DIN912,bolt,M5,90,24,2160,,
+,Bolt DIN912,bolt,M6,16,30,480,,
+,Bolt DIN912,bolt,M6,25,16,400,,
+,Bolt DIN912,bolt,M6,100,16,1600,,
+,Bolt DIN912,bolt,M8,16,102,1632,,
+,Bolt DIN912,bolt,M8,20,552,11040,,
+,Bolt DIN912,bolt,M8,25,44,1100,,
+,Bolt DIN912,bolt,M8,30,56,1680,,
+,DB25 cable shielded,cable,,,7,,,
+,usb-A to usb-B cable,cable,,,1,,,
+,Mounting plate between GX150 and aluminium profiles,CNC part,as per step file and drawing,,2,,,
+,Surge Shaft Mounts,CNC part,as per step file and drawing,,8,,,
+,UCF206 mount,CNC part,as per step file and drawing,,1,,,
+,YawSway DOF joint locker mount,CNC part,as per step file and drawing,,1,,,
+,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""L"" shape",,8,,,
+,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""T"" shape",,8,,,
+,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"8 hole, ""T"" shape",,8,,,
+,Angle bracket,connector hardware,40x40,,38,,,
+,Angle bracket,connector hardware,40x80,,36,,,
+,Angle bracket,connector hardware,80x80,,12,,,
+,Connector plate,connector hardware,40x80,,8,,,
+,Connector plate,connector hardware,80x80,,4,,,
+,Item Ball bearing hinge,item,,,4,,,
+,Ballscrew,linear tech,1605,300,4,1200,,
+,Fixed bearing,linear tech,FK12,,4,,,
+,Flanged Shaft Support Block,linear tech,SFWR 30,,1,,,
+,GX150 linear table,linear tech,400mm stroke,,3,,,
+,Linear bearing,linear tech,LMEKL-30-UU,,4,,,
+,Linear Bearing,linear tech,SCE25UU,,4,,,
+,Linear Bearing,linear tech,SCE30UU,,12,,,
+,Linear Carriage Block,linear tech,HGH20,,4,,,
+,Linear Rail Guide,linear tech,HGR20,1600,2,3200,,
+,Linear Shaft,linear tech,25mm,500,2,1000,,
+,Linear Shaft,linear tech,30mm,130,1,130,,
+,Linear Shaft,linear tech,30mm,380,4,1520,,
+,Linear Shaft,linear tech,30mm,1108,4,4432,,
+,Linear Shaft,linear tech,"30mm diameter, 17-20mm hollow inside",380,4,1520,,
+,Linear table (GX150) or push-pull actuators,linear tech,400mm max stroke,,2,,,
+,Motor shaft coupling,linear tech,10mm/16mm,,4,,,
+,Pillow Block / Housed Bearing,linear tech,UCF206,,1,,,
+,Servo motor and driver,linear tech,90ST-M02430 / AASD15A,,7,,,
+,Shaft Holder,linear tech,SH25,,4,,,
+,Shaft Holder,linear tech,SH30,,8,,,
+,Self-locking nut DIN985,nut,M4,,32,,,
+,Self-locking nut DIN985,nut,M5,,24,,,
+,Self-locking nut DIN985,nut,M6,,64,,,
+,Self-locking nut DIN985,nut,M8,,32,,,
+,T-Slot nut Spring-loaded Roll-in item line 10,nut,M8,,24,,,
+,T-Slot nut Spring-loaded Roll-in item line 8,nut,M5,,54,,,
+,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,646,,,
+,Plexi panel,Plexi panel,175x320,,2,,,
+,Plexi panel,Plexi panel,255x820,,2,,,
+,Plexi panel,Plexi panel,320x820,,2,,,
+,E-Stop button Bajer,servo controller,,,1,,,
+,Thanos AMC-AASD15A PNP servo controller,servo controller,,,1,,,
+,Spring washer DIN127,washer,10.7,,32,,,
+,Spring washer DIN127,washer,4.4,,16,,,
+,Spring washer DIN127,washer,6.5,,32,,,
+,Spring washer DIN127,washer,8.5,,456,,,
+,Washer DIN125,washer,6.4,,16,,,
+,Washer DIN125,washer,8.4,,304,,,
