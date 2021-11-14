@@ -61,8 +61,8 @@ Yaw-Sway / Double Traction Loss Bottom,T-Slot nut Spring-loaded Roll-in item lin
 ,,,,,,,,
 ,,,,,,,,
 ,Yaw-Sway / Double Traction Loss Top,Category,Spec,Length,Quantity,,Purpose,Notes
-Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium profile,40x80,660,4,,Frame,
-Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium profile,40x80,1400,2,,Frame,
+Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium profile,40x80,660,4,,Frame,Non-light version or 80x80 can be beneficial for this profile
+Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium profile,40x80,1400,2,,Frame,Non-light version or 80x80 can be beneficial for this profile
 Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium profile,40x40,234,2,,GX150 to ballbearing hinge,
 Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium profile,40x40,210,2,,between ball bearing hinges,
 Yaw-Sway / Double Traction Loss Top,Item Ball bearing hinge,item,,,4,,,"Optionally replaceable by possibly cheaper alternatives, like regular ball joints and fork heads"
@@ -70,8 +70,8 @@ Yaw-Sway / Double Traction Loss Top,Pillow Block / Housed Bearing,linear tech,UC
 Yaw-Sway / Double Traction Loss Top,UCF206 mount,CNC part,steel,,1,,,
 Yaw-Sway / Double Traction Loss Top,"Item Profile 8 80x80-45° D60, natural
 0.0.463.24",aluminium profile,80x80-45° D60,40,0,,for holding vertical actuator feet in place,
-Yaw-Sway / Double Traction Loss Top,Angle bracket,connector hardware,40x80,,8,,,
-Yaw-Sway / Double Traction Loss Top,Angle bracket,connector hardware,40x40,,8,,,
+Yaw-Sway / Double Traction Loss Top,Angle bracket,connector hardware,40x80,,8,,frame,use 8x 80x80 corner brackets instead of 40x80 when using 80x80 profile for the frame
+Yaw-Sway / Double Traction Loss Top,Angle bracket,connector hardware,40x40,,8,,frame,use 16x 40x40 corner brackets instead of 8x when using 80x80 profile for the frame
 Yaw-Sway / Double Traction Loss Top,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""L"" shape",,8,,below the Yaw-Sway top frame in each corner,
 Yaw-Sway / Double Traction Loss Top,Bolt DIN912,bolt,M10,35,4,,between UCF206 and UCF206's thick mount plate,
 Yaw-Sway / Double Traction Loss Top,Bolt DIN912,bolt,M8,20,8,,between UCF206's thin mount plate and profile frame,
@@ -86,8 +86,8 @@ Yaw-Sway / Double Traction Loss Top,T-Slot nut Spring-loaded Roll-in item line 8
 Yaw-Sway / Double Traction Loss Top,T-Slot nut Spring-loaded Roll-in item line 8,nut,M8,,112,,for Yaw-Sway top frame's aluminium mounting plates,
 ,,,,,,,,
 ,Surge,Category,Spec,Length,Quantity,,Purpose,Notes
-Surge,Aluminium profile type-i light,aluminium profile,40x80,500,4,,Frame,
-Surge,Aluminium profile type-i light,aluminium profile,40x80,1600,2,,Frame,
+Surge,Aluminium profile type-i light,aluminium profile,40x80,500,4,,Frame,Non-light version or 80x80 can be beneficial for this profile
+Surge,Aluminium profile type-i light,aluminium profile,40x80,1600,2,,Frame,Non-light version or 80x80 can be beneficial for this profile
 Surge,Aluminium profile type-i light,aluminium profile,40x120,500,1,,"160*40 based simrig rear frame replacement to make space for the GX150's height. Use the freed 160*40*500 profile at the front, or flat/horizontal before the pedals as a sim floor and extra stiffener for the simrig's frame.",
 Surge,Aluminium profile type-i light,aluminium profile,40x40,500,1,,For connecting GX150 table top mount to simrig,
 Surge,GX150 linear table,linear tech,400mm stroke,604mm,1,,,"I have ordered 300mm stroke version with a dust cover, and they have added +100mm to the stroke (for a total of 400mm stroke), and useful stroke became 370mm with the dust cover on, using it on 360mm. total GX150 length in 604mm"
@@ -98,15 +98,17 @@ Surge,Linear Rail Carriage Mount,CNC part,steel,,8,,,
 Surge,Linear Rail Carriage Mount Spacer,3d printed part,,,8,,"these are 5mm thick, I had to print 4 of them as only 3mm to make them fit easier - this depends on the assembly and the quality of the Linear Rail Carriage Mount CNC part (mine had a slight bent inwards therefore I needed to compensate for that)",
 Surge,Angle bracket,connector hardware,80x80,,8,,for frame profile,
 Surge,Angle bracket,connector hardware,40x80,,4,,for frame profile,
+Surge,Angle bracket,connector hardware,40x80,,4,,for mounting cross profile to simrig ,
 Surge,Angle bracket,connector hardware,40x40,,8,,for mounting GX150 linear table bottom to surge frame,
 Surge,Angle bracket,connector hardware,40x40,,8,,for mounting GX150 linear table top mount to cross profile,
-Surge,Angle bracket,connector hardware,40x80,,4,,for mounting cross profile to simrig ,
+Surge,Angle bracket,connector hardware,40x40,,16,,extra angle brackets for extra stiffness between cross profiles and frame,
 Surge,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"8 hole, ""T"" shape",,8,,below the Surge frame at each profile connection,
 Surge,Bolt DIN7991,bolt,M5,10,32,,for mounting linear rail carriages to carriage mounts,
 Surge,Bolt DIN912,bolt,M5,20,54,,for mounting linear rails to profile,
 Surge,Bolt DIN912,bolt,M6,16,8,,"for mounting GX150 bottom to the surge frame, GX150 side",
 Surge,Bolt DIN912,bolt,M6,25,8,,for mounting GX150 linear table top's mount on top of the GX150,
 Surge,Bolt DIN912,bolt,M8,16,8,,"for mounting GX150 linear table to the surge frame, frame side",
+Surge,Bolt DIN912,bolt,M8,16,32,,for extra angle brackets for extra stiffness between cross profiles and frame,
 Surge,Bolt DIN912,bolt,M8,20,56,,for mounting vertical actuators,
 Surge,Bolt DIN912,bolt,M8,20,56,,for frame angle brackets,
 Surge,Bolt DIN912,bolt,M8,20,64,,below the Surge frame at each profile connection,
@@ -243,7 +245,7 @@ Thanos Controller,E-Stop button Bajer,servo controller,,,1,,,
 ,Bolt DIN912,bolt,M6,16,32,512,,
 ,Bolt DIN912,bolt,M6,25,48,1200,,
 ,Bolt DIN912,bolt,M6,100,16,1600,,
-,Bolt DIN912,bolt,M8,16,136,2176,,
+,Bolt DIN912,bolt,M8,16,168,2688,,
 ,Bolt DIN912,bolt,M8,20,616,12320,,
 ,Bolt DIN912,bolt,M8,25,68,1700,,
 ,Bolt DIN912,bolt,M8,35,32,1120,,
@@ -260,7 +262,7 @@ Thanos Controller,E-Stop button Bajer,servo controller,,,1,,,
 ,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""L"" shape",,8,,,
 ,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""T"" shape",,8,,,
 ,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"8 hole, ""T"" shape",,8,,,
-,Angle bracket,connector hardware,40x40,,56,,,
+,Angle bracket,connector hardware,40x40,,72,,,
 ,Angle bracket,connector hardware,40x80,,36,,,
 ,Angle bracket,connector hardware,80x80,,8,,,
 ,Connector plate,connector hardware,40x80,,8,,,
