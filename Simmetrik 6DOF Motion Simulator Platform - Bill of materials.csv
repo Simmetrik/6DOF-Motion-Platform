@@ -16,7 +16,7 @@ Yaw-Sway / Double Traction Loss Bottom,Linear Shaft,linear tech,30mm,380,4,,for 
 Yaw-Sway / Double Traction Loss Bottom,Linear Shaft,linear tech,30mm,1108,4,,for sway DOF,"1108mm for ~360mm travel placed on the inner profile, 1188 for ~400mm travel placed on the outer profile"
 Yaw-Sway / Double Traction Loss Bottom,Thrust Bearing / Rotating assembly / Lazy Susan,bearing,105x85 500kgs capacity,,4,https://www.bs-rollen.de/en_DE/castors/thrust-bearings/1237/thrust-bearing?c=164,,BS Rollen D80.115 thrust bearing with 500kgs capacity. There is another make with the same form factor but it has only 250kgs weight capacity
 Yaw-Sway / Double Traction Loss Bottom,Surge Shaft Mounts,CNC part,aluminium,,8,,,"Optionally replaceable by 8 x SHF30 and drlling holes to 8 of the SCE30UU's, or using 3d printed versions (STEP & STL files available) instead of CNC machined"
-Yaw-Sway / Double Traction Loss Bottom,YawSway DOF joint locker mount,CNC part,aluminium,,1,,,In between flanged shaft support block and 2xSC25 linear bearings
+Yaw-Sway / Double Traction Loss Bottom,YawSway DOF joint locker mount,CNC part,steel,,1,,,In between flanged shaft support block and 2xSC25 linear bearings
 Yaw-Sway / Double Traction Loss Bottom,GX150 Linear Table Mount,CNC part,aluminium,,2,,,
 Yaw-Sway / Double Traction Loss Bottom,Linear table (GX150) or push-pull actuators,linear tech,400mm max stroke,,2,,,"Adjustable stroke, current design fits up to 400mm stroke movement. I have ordered 3*GX150's with 300mm stroke + dust cover, and got a 400mm stroke that moves 370mm with the dust cover on."
 Yaw-Sway / Double Traction Loss Bottom,Caster wheels,aluprofile accessory,GD60,,16,,optional,or GD60S or GD60FS. The grub screws have to be bought separately anyway - the ones supplied are too long
@@ -93,7 +93,7 @@ Surge,Aluminium profile type-i light,aluminium profile,40x120,500,1,,"160*40 bas
 Surge,Aluminium profile type-i light,aluminium profile,40x40,500,1,,For connecting GX150 table top mount to simrig,
 Surge,GX150 linear table,linear tech,400mm stroke,604mm,1,,,"I have ordered 300mm stroke version with a dust cover, and they have added +100mm to the stroke (for a total of 400mm stroke), and useful stroke became 370mm with the dust cover on, using it on 360mm. total GX150 length in 604mm"
 Surge,Linear Rail Guide,linear tech,HGR20,1600,2,,Can be shortened by up to 200mm if surge actuator / linear table stroke is reduced by the same amount,
-Surge,Linear Rail Carriage Block,linear tech,HGH20,,4,,,
+Surge,Linear Rail Carriage Block,linear tech,HGH20,,8,,,
 Surge,GX150 linear table top mount to profile,CNC part,aluminium,,1,,,
 Surge,Linear Rail Carriage Mount,CNC part,steel,,8,,,
 Surge,Linear Rail Carriage Mount Spacer,3d printed part,,,8,,"these are 5mm thick, I had to print 4 of them as only 3mm to make them fit easier - this depends on the assembly and the quality of the Linear Rail Carriage Mount CNC part (mine had a slight bent inwards therefore I needed to compensate for that)",
@@ -176,7 +176,7 @@ AASD rack,Connector plate,connector hardware,40x80,,8,,,
 AASD rack,Plexi panel,Plexi panel,255x820,4-6mm,2,,,
 AASD rack,Plexi panel,Plexi panel,175x320,4-6mm,2,,cut according to supplied files for fan intake and cable outputs,
 AASD rack,Plexi panel,Plexi panel,320x820,4-6mm,2,,,
-AASD rack,Reduction Profile I SLOT 8 / 4 - 6 MM,"GD60S, GD60FS. The grub screws have to be bought separately anyway - the ones supplied are too long",,258,4,,To secure panels with a thickness of 4 - 6 mm,https://www.fath24.com/portfolio/products/Reduction-Profile-I-Slot-8-4-6-mm
+AASD rack,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,258,4,,To secure panels with a thickness of 4 - 6 mm,https://www.fath24.com/portfolio/products/Reduction-Profile-I-Slot-8-4-6-mm
 AASD rack,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,178,4,,,
 AASD rack,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,323,4,,,
 AASD rack,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,823,4,,,
@@ -231,6 +231,7 @@ Thanos Controller,E-Stop button Bajer,servo controller,,,1,,,
 ,Caster wheels,aluprofile accessory,GD60,,16,,,
 ,Caster wheels mount,aluprofile accessory,80x80 M12,,16,,,
 ,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,178,4,712,,
+,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,258,4,1032,,
 ,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,323,8,2584,,
 ,Reduction Profile I SLOT 8 / 4 - 6 MM,aluprofile accessory,,823,8,6584,,
 ,Thrust Bearing / Rotating assembly / Lazy Susan,bearing,105x85 500kgs capacity,,4,,,
@@ -259,7 +260,7 @@ Thanos Controller,E-Stop button Bajer,servo controller,,,1,,,
 ,Surge Shaft Mounts,CNC part,aluminium,,8,,,
 ,UCF206 mount,CNC part,steel,,1,,,
 ,Vertical Actuator Mount to surge frame,CNC part,,,4,,,
-,YawSway DOF joint locker mount,CNC part,aluminium,,1,,,
+,YawSway DOF joint locker mount,CNC part,steel,,1,,,
 ,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""L"" shape",,8,,,
 ,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""T"" shape",,8,,,
 ,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"8 hole, ""T"" shape",,8,,,
@@ -268,7 +269,6 @@ Thanos Controller,E-Stop button Bajer,servo controller,,,1,,,
 ,Angle bracket,connector hardware,80x80,,8,,,
 ,Connector plate,connector hardware,40x80,,8,,,
 ,Connector plate,connector hardware,80x80,,4,,,
-,Reduction Profile I SLOT 8 / 4 - 6 MM,"GD60S, GD60FS. The grub screws have to be bought separately anyway - the ones supplied are too long",,258,4,1032,,
 ,Item Ball bearing hinge,item,,,4,,,
 ,Ballscrew,linear tech,1605,300,4,1200,,
 ,Fixed bearing,linear tech,FK12,,4,,,
@@ -277,7 +277,7 @@ Thanos Controller,E-Stop button Bajer,servo controller,,,1,,,
 ,Linear bearing,linear tech,LMEKL-30-UU,,4,,,
 ,Linear Bearing,linear tech,SCE25UU,,4,,,
 ,Linear Bearing,linear tech,SCE30UU,,12,,,
-,Linear Rail Carriage Block,linear tech,HGH20,,4,,,
+,Linear Rail Carriage Block,linear tech,HGH20,,8,,,
 ,Linear Rail Guide,linear tech,HGR20,1600,2,3200,,
 ,Linear Shaft,linear tech,25mm,500,2,1000,,
 ,Linear Shaft,linear tech,30mm,130,1,130,,
