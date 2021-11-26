@@ -15,8 +15,8 @@ Yaw-Sway / Double Traction Loss Bottom,Linear Shaft,linear tech,30mm,130,1,,in b
 Yaw-Sway / Double Traction Loss Bottom,Linear Shaft,linear tech,30mm,380,4,,for surge movement allowing yaw DOF,
 Yaw-Sway / Double Traction Loss Bottom,Linear Shaft,linear tech,30mm,1108,4,,for sway DOF,"1108mm for ~360mm travel placed on the inner profile, 1188 for ~400mm travel placed on the outer profile"
 Yaw-Sway / Double Traction Loss Bottom,Thrust Bearing / Rotating assembly / Lazy Susan,bearing,105x85 500kgs capacity,,4,https://www.bs-rollen.de/en_DE/castors/thrust-bearings/1237/thrust-bearing?c=164,,BS Rollen D80.115 thrust bearing with 500kgs capacity. There is another make with the same form factor but it has only 250kgs weight capacity
-Yaw-Sway / Double Traction Loss Bottom,Surge Shaft Mounts,CNC part,aluminium,,8,,,"Optionally replaceable by 8 x SHF30 and drlling holes to 8 of the SCE30UU's, or using 3d printed versions (STEP & STL files available) instead of CNC machined"
-Yaw-Sway / Double Traction Loss Bottom,YawSway DOF joint locker mount,CNC part,steel,,1,,,In between flanged shaft support block and 2xSC25 linear bearings
+Yaw-Sway / Double Traction Loss Bottom,SurgeShaft Mount,CNC part,aluminium,,8,,,"Optionally replaceable by 8 x SHF30 and drlling holes to 8 of the SCE30UU's, or using 3d printed versions (STEP & STL files available) instead of CNC machined"
+Yaw-Sway / Double Traction Loss Bottom,UCF206 to SC25 Mounting Plate,CNC part,steel,,1,,,In between flanged shaft support block and 2xSC25 linear bearings
 Yaw-Sway / Double Traction Loss Bottom,GX150 Linear Table Mount,CNC part,aluminium,,2,,,
 Yaw-Sway / Double Traction Loss Bottom,Linear table (GX150) or push-pull actuators,linear tech,400mm max stroke,,2,,,"Adjustable stroke, current design fits up to 400mm stroke movement. I have ordered 3*GX150's with 300mm stroke + dust cover, and got a 400mm stroke that moves 370mm with the dust cover on."
 Yaw-Sway / Double Traction Loss Bottom,Caster wheels,aluprofile accessory,GD60,,16,,optional,or GD60S or GD60FS. The grub screws have to be bought separately anyway - the ones supplied are too long
@@ -68,7 +68,9 @@ Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium pro
 Yaw-Sway / Double Traction Loss Top,Aluminium profile type-i light,aluminium profile,40x40,210,2,,between ball bearing hinges,
 Yaw-Sway / Double Traction Loss Top,Item Ball bearing hinge,item,,,4,,,"Optionally replaceable by possibly cheaper alternatives, like regular ball joints and fork heads"
 Yaw-Sway / Double Traction Loss Top,Pillow Block / Housed Bearing,linear tech,UCF206,,1,,,
-Yaw-Sway / Double Traction Loss Top,UCF206 mount,CNC part,steel,,1,,,
+Yaw-Sway / Double Traction Loss Top,UCF206 Mounting Plate,CNC part,steel,,1,,,
+Yaw-Sway / Double Traction Loss Top,Mount Thrust Bearing to 80x40 Profile,CNC part,aluminium,,4,,,
+Yaw-Sway / Double Traction Loss Top,Mount Thrust Bearing to SC30 Linear Bearing,CNC part,aluminium,,4,,,
 Yaw-Sway / Double Traction Loss Top,"Item Profile 8 80x80-45° D60, natural
 0.0.463.24",aluminium profile,80x80-45° D60,40,0,,for holding vertical actuator feet in place,
 Yaw-Sway / Double Traction Loss Top,Angle bracket,connector hardware,40x80,,8,,frame,use 8x 80x80 corner brackets instead of 40x80 when using 80x80 profile for the frame
@@ -94,7 +96,7 @@ Surge,Aluminium profile type-i light,aluminium profile,40x40,500,1,,For connecti
 Surge,GX150 linear table,linear tech,400mm stroke,604mm,1,,,"I have ordered 300mm stroke version with a dust cover, and they have added +100mm to the stroke (for a total of 400mm stroke), and useful stroke became 370mm with the dust cover on, using it on 360mm. total GX150 length in 604mm"
 Surge,Linear Rail Guide,linear tech,HGR20,1600,2,,Can be shortened by up to 200mm if surge actuator / linear table stroke is reduced by the same amount,
 Surge,Linear Rail Carriage Block,linear tech,HGH20,,8,,,
-Surge,GX150 linear table top mount to profile,CNC part,aluminium,,1,,,
+Surge,GX150 Linear Table Mount,CNC part,aluminium,,1,,,
 Surge,Linear Rail Carriage Mount,CNC part,steel,,8,,,
 Surge,Linear Rail Carriage Mount Spacer,3d printed part,,,8,,"these are 5mm thick, I had to print 4 of them as only 3mm to make them fit easier - this depends on the assembly and the quality of the Linear Rail Carriage Mount CNC part (mine had a slight bent inwards therefore I needed to compensate for that)",
 Surge,Angle bracket,connector hardware,80x80,,8,,for frame profile,
@@ -139,11 +141,11 @@ Vertical Actuators,Fixed bearing,linear tech,FK12,,4,,,
 Vertical Actuators,Motor shaft coupling,linear tech,OD: 30mm ID: 10mm/16mm,40,4,,,
 Vertical Actuators,Shaft Collar,linear tech,misumi SCWW30,,4,https://uk.misumi-ec.com/vona2/detail/110301999840/?CategorySpec=00000004080%3a%3amig00000002019751%0900000004081%3a%3amig00000002327262#,"Optional, for stronger push-pull operation, in case the actuators would be used for horizontal push-pull operation which requires a stronger holding power than the slider's printed plastic. Not required for vertical use, even if the actuators are fixed onto the platform - gravity helps with pulling. https://uk.misumi-ec.com/vona2/detail/110301999840/?CategorySpec=00000004080%3a%3amig00000002019751%0900000004081%3a%3amig00000002327262#",
 Vertical Actuators,Linear Bearing Mount,3d printed / CNC part,,,4,,both 3dprinted and CNC version available,
-Vertical Actuators,Fixed Baring Mount,3d printed / CNC part,,,4,,both 3dprinted and CNC version available,
+Vertical Actuators,Fixed Bearing Mount,3d printed / CNC part,,,4,,both 3dprinted and CNC version available,
 Vertical Actuators,Motor mount,3d printed part,,,4,,,
 Vertical Actuators,Slider,3d printed part,,,4,,,
 Vertical Actuators,Feet,3d printed part,,,4,,,
-Vertical Actuators,Vertical Actuator Mount to surge frame,CNC part,,,4,,,
+Vertical Actuators,Vertical Actuator Mount to surge frame,CNC part,aluminium,,4,,,
 Vertical Actuators,Bolt DIN912,bolt,M4,35,16,,for fixed bearing,
 Vertical Actuators,Bolt DIN912,bolt,M5,90,24,,for slider,"Use 100mm when using a shaft collar for heavy duty push-pull operation, like the SCWW30 from misumi: https://uk.misumi-ec.com/vona2/detail/110301999840/?CategorySpec=00000004080%3a%3amig00000002019751%0900000004081%3a%3amig00000002327262#"
 Vertical Actuators,Bolt DIN912,bolt,M6,25,16,,for linear bearing mount,
@@ -203,7 +205,7 @@ Thanos Controller,E-Stop button Bajer,servo controller,,,1,,,
 ,,,,,,,,
 ,Grouped summary,Category,Spec,Length,Quantity,"Length * Quantity (this makes sense for a few items only, like aluminium profiles)",,
 ,,,,,sum , product(sum ),,
-,Fixed Baring Mount,3d printed / CNC part,,,4,,,
+,Fixed Bearing Mount,3d printed / CNC part,,,4,,,
 ,Linear Bearing Mount,3d printed / CNC part,,,4,,,
 ,Feet,3d printed part,,,4,,,
 ,Linear Rail Carriage Mount Spacer,3d printed part,,,8,,,
@@ -254,13 +256,14 @@ Thanos Controller,E-Stop button Bajer,servo controller,,,1,,,
 ,Bolt DIN913,bolt,M12,30,16,480,,
 ,DB25 cable shielded,cable,,,7,,,
 ,usb-A to usb-B cable,cable,,,1,,,
-,GX150 Linear Table Mount,CNC part,aluminium,,2,,,
-,GX150 linear table top mount to profile,CNC part,aluminium,,1,,,
+,GX150 Linear Table Mount,CNC part,aluminium,,3,,,
 ,Linear Rail Carriage Mount,CNC part,steel,,8,,,
-,Surge Shaft Mounts,CNC part,aluminium,,8,,,
-,UCF206 mount,CNC part,steel,,1,,,
-,Vertical Actuator Mount to surge frame,CNC part,,,4,,,
-,YawSway DOF joint locker mount,CNC part,steel,,1,,,
+,Mount Thrust Bearing to 80x40 Profile,CNC part,aluminium,,4,,,
+,Mount Thrust Bearing to SC30 Linear Bearing,CNC part,aluminium,,4,,,
+,SurgeShaft Mount,CNC part,aluminium,,8,,,
+,UCF206 Mounting Plate,CNC part,steel,,1,,,
+,UCF206 to SC25 Mounting Plate,CNC part,steel,,1,,,
+,Vertical Actuator Mount to surge frame,CNC part,aluminium,,4,,,
 ,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""L"" shape",,8,,,
 ,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"14 hole, ""T"" shape",,8,,,
 ,Aluminium Mounting Plate 6mm thick 40x40 hole distances,connector hardware,"8 hole, ""T"" shape",,8,,,
